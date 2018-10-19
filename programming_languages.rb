@@ -10,5 +10,5 @@ def reformat_languages(languages)
     end 
     
   end
-  #puts new_hash
+  puts new_hash
 end
