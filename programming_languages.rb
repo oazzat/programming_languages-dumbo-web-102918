@@ -1,3 +1,14 @@
 def reformat_languages(languages)
+  new_hash = {}
   
+  languages.each do |key,val|
+    
+    val.each do |name,type|
+      if !new_hash.include?(name)
+        new_hash[name] = type
+      end
+    end 
+    
+  end
+  puts new_hash
 end
