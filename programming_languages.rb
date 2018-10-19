@@ -6,7 +6,7 @@ def reformat_languages(languages)
     val.each do |name,type|
       if !new_hash.include?(name)
         new_hash[name] = type
-        new_hash[name][:style] = key
+        new_hash[name][:style] = [key]
       end
     end 
     
